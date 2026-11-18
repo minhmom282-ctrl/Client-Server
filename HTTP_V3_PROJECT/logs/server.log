@@ -1,0 +1,94 @@
+[2026-11-18 22:48:09] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8888 (0.0.0.0)
+[2026-11-18 22:48:56] [CLIENT ] Client kết nối từ 127.0.0.1:50484
+[2026-11-18 22:48:56] [INFO   ] [127.0.0.1:50484] Nhận yêu cầu POST /register | User: 'hoangnhatminh' | Email: 'minhmom282@gmail.com'
+[2026-11-18 22:48:56] [SUCCESS] [127.0.0.1:50484] 201 Created - Đăng ký thành công tài khoản 'hoangnhatminh'
+[2026-11-18 22:48:56] [INFO   ] [127.0.0.1:50484] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:48:56] [CLIENT ] [127.0.0.1:50484] Đã đóng kết nối với Client
+[2026-11-18 22:49:07] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8889 (0.0.0.0)
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50486
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50486] Nhận yêu cầu POST /register | User: 'user_test1' | Email: 'user1@nuce.edu.vn'
+[2026-11-18 22:49:08] [SUCCESS] [127.0.0.1:50486] 201 Created - Đăng ký thành công tài khoản 'user_test1'
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50486] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50486] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50487
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50487] Nhận yêu cầu POST /register | User: 'user_test1' | Email: 'another@nuce.edu.vn'
+[2026-11-18 22:49:08] [WARNING] [127.0.0.1:50487] 409 Conflict - Tên đăng nhập 'user_test1' đã được sử dụng
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50487] Đã gửi phản hồi HTTP 409 Conflict
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50487] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50488
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50488] Nhận yêu cầu POST /register | User: '' | Email: 'user3@nuce.edu.vn'
+[2026-11-18 22:49:08] [WARNING] [127.0.0.1:50488] 400 Bad Request - Tên đăng nhập không được để trống
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50488] Đã gửi phản hồi HTTP 400 Bad Request
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50488] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50489
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50489] Nhận yêu cầu POST /register | User: 'user_test4' | Email: 'email_sai_dinh_dang'
+[2026-11-18 22:49:08] [WARNING] [127.0.0.1:50489] 400 Bad Request - Địa chỉ email không đúng định dạng (ví dụ: user@example.com)
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50489] Đã gửi phản hồi HTTP 400 Bad Request
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50489] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50490
+[2026-11-18 22:49:08] [WARNING] [127.0.0.1:50490] 404 Not Found - Path sai: /api/login
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50490] Đã gửi phản hồi HTTP 404 Not Found
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50490] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [CLIENT ] Client kết nối từ 127.0.0.1:50491
+[2026-11-18 22:49:08] [WARNING] [127.0.0.1:50491] 405 Method Not Allowed - Phương thức: GET
+[2026-11-18 22:49:08] [INFO   ] [127.0.0.1:50491] Đã gửi phản hồi HTTP 405 Method Not Allowed
+[2026-11-18 22:49:08] [CLIENT ] [127.0.0.1:50491] Đã đóng kết nối với Client
+[2026-11-18 22:49:08] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:49:10] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8889 (0.0.0.0)
+[2026-11-18 22:49:10] [CLIENT ] Client kết nối từ 127.0.0.1:50494
+[2026-11-18 22:49:10] [CLIENT ] Client kết nối từ 127.0.0.1:50495
+[2026-11-18 22:49:10] [INFO   ] [127.0.0.1:50494] Nhận yêu cầu POST /register | User: 'concurrent_user' | Email: 'sim@nuce.edu.vn'
+[2026-11-18 22:49:10] [INFO   ] [127.0.0.1:50495] Nhận yêu cầu POST /register | User: 'concurrent_user' | Email: 'sim@nuce.edu.vn'
+[2026-11-18 22:49:10] [WARNING] [127.0.0.1:50495] 409 Conflict - Tên đăng nhập 'concurrent_user' đã được sử dụng
+[2026-11-18 22:49:10] [SUCCESS] [127.0.0.1:50494] 201 Created - Đăng ký thành công tài khoản 'concurrent_user'
+[2026-11-18 22:49:10] [INFO   ] [127.0.0.1:50495] Đã gửi phản hồi HTTP 409 Conflict
+[2026-11-18 22:49:10] [INFO   ] [127.0.0.1:50494] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:49:10] [CLIENT ] [127.0.0.1:50495] Đã đóng kết nối với Client
+[2026-11-18 22:49:10] [CLIENT ] [127.0.0.1:50494] Đã đóng kết nối với Client
+[2026-11-18 22:49:10] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:49:11] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8889 (0.0.0.0)
+[2026-11-18 22:49:11] [CLIENT ] Client kết nối từ 127.0.0.1:50496
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50496] Nhận yêu cầu POST /register | User: 'user_test1' | Email: 'dup@nuce.edu.vn'
+[2026-11-18 22:49:11] [WARNING] [127.0.0.1:50496] 409 Conflict - Tên đăng nhập 'user_test1' đã được sử dụng
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50496] Đã gửi phản hồi HTTP 409 Conflict
+[2026-11-18 22:49:11] [CLIENT ] [127.0.0.1:50496] Đã đóng kết nối với Client
+[2026-11-18 22:49:11] [CLIENT ] Client kết nối từ 127.0.0.1:50497
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50497] Nhận yêu cầu POST /register | User: 'user_form_fmt' | Email: 'form@nuce.edu.vn'
+[2026-11-18 22:49:11] [SUCCESS] [127.0.0.1:50497] 201 Created - Đăng ký thành công tài khoản 'user_form_fmt'
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50497] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:49:11] [CLIENT ] [127.0.0.1:50497] Đã đóng kết nối với Client
+[2026-11-18 22:49:11] [CLIENT ] Client kết nối từ 127.0.0.1:50498
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50498] Nhận yêu cầu POST /register | User: 'user_json_fmt' | Email: 'json@nuce.edu.vn'
+[2026-11-18 22:49:11] [SUCCESS] [127.0.0.1:50498] 201 Created - Đăng ký thành công tài khoản 'user_json_fmt'
+[2026-11-18 22:49:11] [INFO   ] [127.0.0.1:50498] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:49:11] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:49:11] [CLIENT ] [127.0.0.1:50498] Đã đóng kết nối với Client
+[2026-11-18 22:51:12] [CLIENT ] Client kết nối từ 127.0.0.1:50310
+[2026-11-18 22:51:12] [INFO   ] [127.0.0.1:50310] Nhận yêu cầu POST /register | User: 'hoangnhatminh' | Email: 'tgge6002@gmail.com'
+[2026-11-18 22:51:12] [WARNING] [127.0.0.1:50310] 409 Conflict - Tên đăng nhập 'hoangnhatminh' đã được sử dụng
+[2026-11-18 22:51:12] [INFO   ] [127.0.0.1:50310] Đã gửi phản hồi HTTP 409 Conflict
+[2026-11-18 22:51:12] [CLIENT ] [127.0.0.1:50310] Đã đóng kết nối với Client
+[2026-11-18 22:51:34] [CLIENT ] Client kết nối từ 127.0.0.1:50311
+[2026-11-18 22:51:34] [INFO   ] [127.0.0.1:50311] Nhận yêu cầu POST /register | User: 'nguyenthanhtung' | Email: 'tgge6002@gmail.com'
+[2026-11-18 22:51:34] [SUCCESS] [127.0.0.1:50311] 201 Created - Đăng ký thành công tài khoản 'nguyenthanhtung'
+[2026-11-18 22:51:34] [INFO   ] [127.0.0.1:50311] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:51:34] [CLIENT ] [127.0.0.1:50311] Đã đóng kết nối với Client
+[2026-11-18 22:52:30] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:52:44] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8888 (0.0.0.0)
+[2026-11-18 22:52:49] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:52:51] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8888 (0.0.0.0)
+[2026-11-18 22:53:06] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:53:07] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8888 (0.0.0.0)
+[2026-11-18 22:53:49] [CLIENT ] Client kết nối từ 127.0.0.1:52465
+[2026-11-18 22:53:49] [INFO   ] [127.0.0.1:52465] Nhận yêu cầu POST /register | User: 'hoangnhatminh' | Email: 'minhmom282@gmail.com'
+[2026-11-18 22:53:49] [WARNING] [127.0.0.1:52465] 409 Conflict - Tên đăng nhập 'hoangnhatminh' đã được sử dụng
+[2026-11-18 22:53:49] [INFO   ] [127.0.0.1:52465] Đã gửi phản hồi HTTP 409 Conflict
+[2026-11-18 22:53:49] [CLIENT ] [127.0.0.1:52465] Đã đóng kết nối với Client
+[2026-11-18 22:55:09] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
+[2026-11-18 22:58:32] [SUCCESS] Server đã khởi động thành công và đang lắng nghe trên cổng 8888 (0.0.0.0)
+[2026-11-18 22:59:36] [CLIENT ] Client kết nối từ 127.0.0.1:50523
+[2026-11-18 22:59:36] [INFO   ] [127.0.0.1:50523] Nhận yêu cầu POST /register | User: 'lecongnguyen' | Email: 'lecongnguyen1506@gmail.com'
+[2026-11-18 22:59:36] [SUCCESS] [127.0.0.1:50523] 201 Created - Đăng ký thành công tài khoản 'lecongnguyen'
+[2026-11-18 22:59:36] [INFO   ] [127.0.0.1:50523] Đã gửi phản hồi HTTP 201 Created
+[2026-11-18 22:59:36] [CLIENT ] [127.0.0.1:50523] Đã đóng kết nối với Client
+[2026-11-18 22:59:52] [WARNING] Server đã dừng hoạt động. Cổng mạng đã được giải phóng.
